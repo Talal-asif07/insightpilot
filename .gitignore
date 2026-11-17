@@ -1,0 +1,21 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Outputs
+outputs/
+evals/results/*.json
+evals/results/results_*.md
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
